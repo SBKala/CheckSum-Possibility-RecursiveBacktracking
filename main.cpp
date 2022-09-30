@@ -21,11 +21,10 @@ int main(int argc, char** argv) {
 	int MAX_SIZE = 8;
 	int arr[MAX_SIZE];
 	int arraySize = sizeof(arr) / sizeof(arr[0]);
-    int num = 129;
+	int num = 129;
 	int returnVal;
-	int i; 
       
-	for(i = 0; i < arraySize; ++i)
+	for(int i = 0; i < arraySize; ++i)
 	{
 		cin >> arr[i];
 	}
